@@ -1,0 +1,11 @@
+{
+  "courses": [
+    {"name":"CS5", "category":"core", "credits":3, "notes":"Black"},
+    {"name":"Spec Rel", "category":"core", "credits":3, "notes":"Placeholder"},
+    {"name":"Writ 001", "category":"core", "credits":3, "notes":"Placeholder"},
+    {"name":"Calculus", "category":"core", "credits":3, "notes":"Placeholder"},
+    {"name":"CS60", "category":"major", "credits":3, "notes":"Placeholder"},
+    {"name":"Mudd Hum", "category":"hsa", "credits":3, "notes":"Placeholder"},
+    {"name":"Quantum Info", "category":"elective", "credits":3, "notes":"Placeholder"}
+  ]
+}

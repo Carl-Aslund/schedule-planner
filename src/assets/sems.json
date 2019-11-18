@@ -1,0 +1,32 @@
+{
+  "semesters": [
+    {
+      "name": "Frosh Fall",
+      "courses": [
+        {"name":"Frosh Chem", "category":"core", "credits":3, "notes":""},
+        {"name":"Chem Lab", "category":"core", "credits":1, "notes":""},
+        {"name":"CS 5", "category":"core", "credits":3, "notes":"Black"},
+        {"name":"Free Elective", "category":"elective", "credits":1.5, "notes":"Games & Puzzles"},
+        {"name":"Math 30", "category":"core", "credits":1.5, "notes":""},
+        {"name":"Math 35", "category":"core", "credits":1.5, "notes":""},
+        {"name":"PE", "category":"core", "credits":1, "notes":"Soccer"},
+        {"name":"Spec Rel", "category":"core", "credits":1.5, "notes":""},
+        {"name":"Scripps Hum", "category":"hsa", "credits":3, "notes":"EU History"},
+        {"name":"Writ 1", "category":"core", "credits":1.5, "notes":""}
+      ]
+    },
+    {
+      "name": "Frosh Spring",
+      "courses": [
+        {"name":"Bio 52", "category":"core", "credits":3, "notes":""},
+        {"name":"Frosh Chem", "category":"core", "credits":1.5, "notes":""},
+        {"name":"CS 60", "category":"major", "credits":3, "notes":""},
+        {"name":"HSA 10", "category":"core", "credits":3, "notes":""},
+        {"name":"Math 45", "category":"core", "credits":1.5, "notes":""},
+        {"name":"PE", "category":"core", "credits":1, "notes":"Soccer"},
+        {"name":"Physics Lab", "category":"core", "credits":1, "notes":""},
+        {"name":"Mechanics", "category":"core", "credits":3, "notes":""}
+      ]
+    }
+  ]
+}
