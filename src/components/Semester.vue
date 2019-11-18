@@ -7,6 +7,9 @@
             :credits="course.credits"
             :notes="course.notes"></Course>
   </div>
+  <div v-for="n in blanks" v-bind:key="n">
+    <Course :credits=0></Course>
+  </div>
   <p class="total">{{ total }}</p>
 </div>
 </template>
@@ -20,12 +23,16 @@ export default {
   },
   props: {
     semname: String,
-    courses: Object
+    courses: Object,
+    classes: Number
   },
   computed: {
     total() {
       let creditCounts = this.courses.map((item) => item.credits)
       return creditCounts.reduce((total, count) => total+count)
+    },
+    blanks() {
+      return this.classes - this.courses.length
     }
   }
 }
@@ -33,13 +40,14 @@ export default {
 
 <style scoped>
 .semester {
-  width: 12%;
+  min-width: 136px;
+  width: 5%;
 }
 
 .total, .ref {
   font-size: 32px;
   font-family: sans-serif;
-  margin: 3%;
+  margin: 1%;
   text-align: center;
 }
 </style>

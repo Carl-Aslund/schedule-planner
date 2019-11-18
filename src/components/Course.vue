@@ -1,8 +1,8 @@
 <template>
   <div class="course" v-bind:class="[category]">
     <p class="title">{{name}}</p>
-    <p v-if="credits != 1">{{credits}} credits</p>
-    <p v-else>{{credits}} credit</p>  
+    <p v-if="credits == 1">{{credits}} credit</p>
+    <p v-else-if="credits != 0">{{credits}} credits</p>
     <p class="notes" v-if="notes != ''">{{notes}}</p>
     <br v-else/>
   </div>
@@ -28,7 +28,7 @@ export default {
   width: 100%;
   text-align: center;
   font-family: sans-serif;
-  min-height: 70px;
+  min-height: 65px;
 }
 
 p {

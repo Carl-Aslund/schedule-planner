@@ -1,7 +1,7 @@
 <template>
 <div class="schedule">
   <div v-for="semester in semesters" :key="semester">
-    <Semester :semname="semester.name" :courses="semester.courses"></Semester>
+    <Semester :semname="semester.name" :courses="semester.courses" :classes="classes"></Semester>
   </div>
 </div>
 </template>
@@ -14,6 +14,11 @@ export default {
   components: {
     Semester
   },
+  data: function () {
+    return {
+        classes: 10
+    };
+  },
   computed: {
     semesters() {
       return states.semesters
@@ -24,7 +29,7 @@ export default {
 
 <style scoped>
 .semester {
-  margin: 1%;
+  margin: 10px;
   float: left;
 }
 </style>

@@ -11,7 +11,7 @@
         {"name":"Math 35", "category":"core", "credits":1.5, "notes":""},
         {"name":"PE", "category":"core", "credits":1, "notes":"Soccer"},
         {"name":"Spec Rel", "category":"core", "credits":1.5, "notes":""},
-        {"name":"Scripps Hum", "category":"hsa", "credits":3, "notes":"EU History"},
+        {"name":"Distribution", "category":"hsa", "credits":3, "notes":"EU History"},
         {"name":"Writ 1", "category":"core", "credits":1.5, "notes":""}
       ]
     },
@@ -26,6 +26,64 @@
         {"name":"PE", "category":"core", "credits":1, "notes":"Soccer"},
         {"name":"Physics Lab", "category":"core", "credits":1, "notes":""},
         {"name":"Mechanics", "category":"core", "credits":3, "notes":""}
+      ]
+    },
+    {
+      "name": "Soph Fall",
+      "courses": [
+        {"name":"CS Elective", "category":"major", "credits":1, "notes":"Practicum"},
+        {"name":"Mudd Hum", "category":"hsa", "credits":3, "notes":"Financial Econ"},
+        {"name":"E 79", "category":"core", "credits":3, "notes":""},
+        {"name":"Concentration", "category":"hsa", "credits":3, "notes":"German 1"},
+        {"name":"Discrete Math", "category":"major", "credits":3, "notes":""},
+        {"name":"Free Elective", "category":"elective", "credits":3, "notes":"Game Theory"},
+        {"name":"PE", "category":"core", "credits":1, "notes":"Soccer"},
+        {"name":"E&M", "category":"core", "credits":3, "notes":""}
+      ]
+    },
+    {
+      "name": "Soph Spring",
+      "courses": [
+        {"name":"Core Lab", "category":"core", "credits":1, "notes":"Photo Lab"},
+        {"name":"CS 70", "category":"major", "credits":3, "notes":""},
+        {"name":"CS 81", "category":"major", "credits":3, "notes":""},
+        {"name":"Concentration", "category":"hsa", "credits":3, "notes":"German 2"},
+        {"name":"Abstract", "category":"major", "credits":3, "notes":""},
+        {"name":"Mudd Hum", "category":"hsa", "credits":3, "notes":"Moral Problems"}
+      ]
+    },
+    {
+      "name": "Junior Fall",
+      "courses": [
+        {"name":"Algs", "category":"major", "credits":3, "notes":""},
+        {"name":"CS Colloquium", "category":"major", "credits":0.5, "notes":""},
+        {"name":"CS Elective", "category":"major", "credits":3, "notes":"E85"},
+        {"name":"Concentration", "category":"hsa", "credits":3, "notes":"German 3"},
+        {"name":"Writ Intensive", "category":"hsa", "credits":3, "notes":"IR of South Asia"},
+        {"name":"Math Colloquium", "category":"major", "credits":0.5, "notes":""},
+        {"name":"Distribution", "category":"hsa", "credits":3, "notes":"Russian 1"}
+      ]
+    },
+    {
+      "name": "Junior Spring",
+      "courses": [
+        {"name":"PLs", "category":"major", "credits":3, "notes":""},
+        {"name":"CS Elective", "category":"major", "credits":3, "notes":"AI"},
+        {"name":"CS Colloquium", "category":"major", "credits":0.5, "notes":""},
+        {"name":"Mudd Hum", "category":"hsa", "credits":3, "notes":"Macroeconomics"},
+        {"name":"Mudd Hum", "category":"hsa", "credits":3, "notes":"Financial Markets"},
+        {"name":"Concentration", "category":"hsa", "credits":3, "notes":"German 4"},
+        {"name":"Analysis", "category":"major", "credits":3, "notes":""}
+      ]
+    },
+    {
+      "name": "Senior Fall",
+      "courses": [
+        {"name":"CS Elective", "category":"major", "credits":3, "notes":"CS 181P"},
+        {"name":"CS Clinic", "category":"major", "credits":3, "notes":""},
+        {"name":"Math Elective", "category":"major", "credits":3, "notes":"Probability"},
+        {"name":"Math Elective", "category":"major", "credits":3, "notes":"Number Theory"},
+        {"name":"Math Forum", "category":"major", "credits":1, "notes":""}
       ]
     }
   ]
